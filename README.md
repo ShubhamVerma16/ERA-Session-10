@@ -69,7 +69,6 @@
          ResBlock-29            [-1, 512, 4, 4]               0
         MaxPool2d-30            [-1, 512, 1, 1]               0
            Linear-31                   [-1, 10]           5,120
-          Softmax-32                   [-1, 10]               0
 ================================================================
 Total params: 6,573,632
 Trainable params: 6,573,632
@@ -83,7 +82,14 @@ Estimated Total Size (MB): 31.84
 ```
 
 ## LR Finder
+![image](https://github.com/ShubhamVerma16/ERA-Session-10/assets/46774613/ea3a09d6-fc50-4131-aa5a-a0b08d33bfba)
 
-## LR Plot
 
 ## Learning Curve
+![image](https://github.com/ShubhamVerma16/ERA-Session-10/assets/46774613/0ccd122d-b547-4602-8ca0-585c52ce6b1e)
+![image](https://github.com/ShubhamVerma16/ERA-Session-10/assets/46774613/71a27a26-e685-4c80-aaca-e2380946c2e5)
+
+
+## LR Plot
+![image](https://github.com/ShubhamVerma16/ERA-Session-10/assets/46774613/0ecd69d5-b643-44b0-aa04-0e4755f11ad6)
+
