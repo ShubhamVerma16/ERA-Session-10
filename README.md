@@ -38,4 +38,4 @@
 
 ## LR Plot
 
-## learning Curve
+## Learning Curve
