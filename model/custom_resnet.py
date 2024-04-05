@@ -91,7 +91,6 @@ class CustomResnet(nn.Module):
         )
         self.mp = nn.MaxPool2d(4)
         self.fc = nn.Linear(in_features=512, out_features=10, bias=False)
-        self.softmax = nn.Softmax(dim=-1)
 
     def forward(self, x):
         x = self.prep(x)
@@ -101,7 +100,6 @@ class CustomResnet(nn.Module):
         x = self.mp(x)
         x = x.view(-1, 512)
         x = self.fc(x)
-        x = self.softmax(x)
         return x
         
 
